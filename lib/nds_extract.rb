@@ -97,7 +97,8 @@ end
 def movies_with_directors_set(source)
   movie_array = []
   element_index = 0
-  while element_index < source.length do 
+  while element_index < source.length do
+    #movies_with_director_key
       movie_index = 0
       while movie_index < source[element_index][:movies].length do 
         movie_array.push([{:director_name => source[element_index][:name], :title => source[element_index][:movies][movie_index]}])
