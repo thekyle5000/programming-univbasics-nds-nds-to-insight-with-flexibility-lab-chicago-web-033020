@@ -39,7 +39,6 @@ def movies_with_director_key(name, movies_collection)
   while collect_index < movies_collection.length do 
     dir_array << movie_with_director_name(name, movies_collection[collect_index])
   collect_index += 1
-    binding.pry
     # dir_hash = {}
     # dir_hash[:director_name] = name
     # dir_hash[:title] = movies_collection[collect_index][:title]
