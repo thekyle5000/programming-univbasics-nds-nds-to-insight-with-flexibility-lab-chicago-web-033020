@@ -76,6 +76,7 @@ def gross_per_studio(collection)
    else
      money_hash[collection[element_index][:studio]] = collection[element_index][:worldwide_gross]
    end
+   binding.pry
    element_index += 1 
   end
   money_hash
